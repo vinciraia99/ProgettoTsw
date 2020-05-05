@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="progettoTSW:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/progettoTSW_war</output-path>
+    <root id="archive" name="progettoTSW_war.war">
+      <element id="artifact" artifact-name="progettoTSW:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/Lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/Lib/mysql-connector-java-8.0.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/Lib/tomcat-jdbc.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
