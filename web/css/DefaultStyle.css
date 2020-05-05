@@ -1,0 +1,75 @@
+body {
+    background-image: url("/images/DefaultBackground.jpg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+div.wrapper {  /* Contenitore in alto di Div*/
+    height: 100px;
+    width: 1250px;
+    margin:0 auto;
+    background-color: #6ed5fe;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+div.image{        /*Div contenente l'immagine o logo*/
+}
+
+div.login{      /*Div che serve apposta per il login*/
+    border-radius: 5px;
+    background-color: #0e95ff;
+    padding: 20px;
+    float:right;
+    height: 70%;
+}
+
+div.navbar{     /*Div contenente la navigation bar per spostarsi tra le pagine*/
+    float:left;
+    display:table-cell;
+    vertical-align:middle;
+    height: 70%;
+}
+
+div.carrello{
+    float:right;
+    height: 1%;
+    position:relative;
+    left:-10px;
+    top: -20px;
+}
+
+input#email{
+    background: url("/images/user_icon.png") no-repeat left ;
+    background-color: #ffffff !important;
+    padding-left: 20px;
+}
+input#password {
+    background:  url("/images/lock_image.png")no-repeat left ;
+    background-color: #ffffff !important;
+    padding-left: 20px;
+}
+
+input[type=submit]#accedi,input[type=submit]#registrati{
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 10px;
+    margin: 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+
+
+label#navigation, label#navigation1, label#navigation2, label#navigation3{
+    display: block;
+}
